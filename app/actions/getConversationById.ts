@@ -23,6 +23,7 @@ const getConversationById = async (
         return conversation;
 
     } catch (error: any) {
+        console.log(error, "CONVERSATION_ROUTE_ERROR");
         return null;
     }
 }
